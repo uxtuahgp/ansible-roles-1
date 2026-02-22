@@ -1,0 +1,4 @@
+files/*
+
+roles/lighthouse/.git
+roles/vector/.git
