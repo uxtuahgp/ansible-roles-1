@@ -1,14 +1,14 @@
 ---
 - hosts: clickhouse
   roles:
-    - clickhouse
+    - {role: clickhouse}
 
 
 - hosts: vector
   roles:
-    - vector
+    - {role: vector}
 
 - hosts: lighthouse
   roles:
-    - lighthouse
+    - {role: lighthouse}
 
