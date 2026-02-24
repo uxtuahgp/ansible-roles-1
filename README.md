@@ -73,9 +73,9 @@ Modified playbook to use roles instead of set of tasks
 ### Task 10 ###  
 Uploaded the playbook to github  
 ### Task 11 ###  
-Vector role: git@github.com:uxtuahgp/vector-role.git
-Lighthouse role: git@github.com:uxtuahgp/lighthouse-role.git  
-My own clickhouse role: git@github.com:uxtuahgp/clickhouse-role.git  
+Vector role:               git@github.com:uxtuahgp/vector-role.git  
+Lighthouse role:           git@github.com:uxtuahgp/lighthouse-role.git  
+My own clickhouse role:    git@github.com:uxtuahgp/clickhouse-role.git  
 
 
 
