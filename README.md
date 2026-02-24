@@ -31,13 +31,13 @@ ansible-galaxy role init vector
 ### Task 4 ###  
 Created dafault and private vars for vector role  
 vector_version can be changed by user
-=== Task 5 ===  
+### Task 5 ###  
 Moved templates from playbook inside of roles  
-=== Task 6 ===  
+### Task 6 ###  
 Described roles in README.md files  
-=== Task 7 ===  
+### Task 7 ###  
 Have made the same things for lighthouse role  
-=== Task 8 ===  
+### Task 8 ###  
 
 Added version tag for clickhouse role  
 ```  
@@ -53,7 +53,7 @@ To github.com:uxtuahgp/clickhouse-role.git
 ```  
 
 
-=== Task 9 ===  
+### Task 9 ###  
 Modified playbook to use roles instead of set of tasks  
 ```  
 ---
@@ -70,9 +70,9 @@ Modified playbook to use roles instead of set of tasks
   roles:
     - {role: lighthouse}
 ```  
-=== Task 10 ===  
+### Task 10 ###  
 Uploaded the playbook to github  
-=== Task 11 ===  
+### Task 11 ###  
 Vector role: git@github.com:uxtuahgp/vector-role.git
 Lighthouse role: git@github.com:uxtuahgp/lighthouse-role.git  
 My own clickhouse role: git@github.com:uxtuahgp/clickhouse-role.git  
