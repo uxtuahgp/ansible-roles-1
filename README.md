@@ -1,6 +1,7 @@
-== Ansible Roles Homework ==  
+## Ansible Roles Homework ##  
 
-=== Task 1 ===  
+
+### Task 1 ###  
 Made a requirements.yml as it's requested, but it does not work, because it's based on  CentOS 7 and dont work at Fedora 37.  
 So, created clickhouse my own repo at git@github.com:uxtuahgp/clickhouse-role.git  
 ```  
@@ -11,7 +12,7 @@ So, created clickhouse my own repo at git@github.com:uxtuahgp/clickhouse-role.gi
     name: clickhouse 
 
 ```  
-=== Task 2 ===  
+### Task 2 ###  
 Downloaded my own role from github repo
 ```  
 $ ansible-galaxy role remove clickhouse
@@ -22,12 +23,12 @@ Starting galaxy role install process
 - clickhouse was installed successfully
 
 ```  
-=== Task 3 ===
+### Task 3 ###  
 Created vector role with  
 ```  
 ansible-galaxy role init vector
 ```  
-=== Task 4 ===
+### Task 4 ###  
 Created dafault and private vars for vector role  
 vector_version can be changed by user
 === Task 5 ===  
