@@ -7,6 +7,7 @@ So, created clickhouse my own repo at git@github.com:uxtuahgp/clickhouse-role.gi
 ---
   - src: git@github.com:uxtuahgp/clickhouse-role.git
     scm: git
+    version: "1.0.0"
     name: clickhouse 
 
 ```  
@@ -37,6 +38,18 @@ Described roles in README.md files
 Have made the same things for lighthouse role  
 === Task 8 ===  
 
+Added version tag for clickhouse role  
+```  
+$ git tag -a 1.0.0 -m "Set version tag as requested"
+$ git push origin 1.0.0
+Перечисление объектов: 1, готово.
+Подсчет объектов: 100% (1/1), готово.
+Запись объектов: 100% (1/1), 178 байтов | 178.00 КиБ/с, готово.
+Всего 1 (изменений 0), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
+To github.com:uxtuahgp/clickhouse-role.git
+ * [new tag]         1.0.0 -> 1.0.0
+
+```  
 
 
 === Task 9 ===  
